@@ -1,5 +1,6 @@
 %define module dnspython
-%bcond_without test
+# disable tests on abf
+%bcond_with test
 
 Name:		python-dnspython
 Version:	2.7.0
