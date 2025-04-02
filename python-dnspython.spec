@@ -5,11 +5,12 @@
 Name:		python-dnspython
 Version:	2.7.0
 Release:	1
-Source0:	https://github.com/microsoft/playwright-python/archive/refs/tags/%{module}-%{version}.tar.gz
 License:	ISC
 URL:		https://www.dnspython.org/
 Summary:	DNS toolkit for Python
 Group:		Development/Python
+Source0:	https://github.com/rthalley/dnspython/archive/refs/tags/%{module}-%{version}.tar.gz
+
 BuildSystem: python
 BuildArch:	noarch
 
